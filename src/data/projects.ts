@@ -10,11 +10,13 @@ const projects: Project[] = [
     title: "Dictionary App",
     techs: ["ReactJS (NextJS)", "react-query", "zod"],
     link: "https://github.com/MaeWolff/dictionary-app",
+    isComingSoon: true,
   },
   {
     title: "Portfolio / Lina BLIDI",
     techs: ["ReactJS (NextJS)", "TypeScript"],
     link: "https://www.linablidi.fr/",
+    isComingSoon: true,
   },
   {
     title: "Portfolio / Template",

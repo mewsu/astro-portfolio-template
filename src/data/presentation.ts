@@ -20,7 +20,7 @@ const presentation: Presentation = {
   socials: [
     {
       label: "X",
-      link: "https://twitter.com/itsstormzz_",
+      link: "",
     },
     {
       label: "Bento",

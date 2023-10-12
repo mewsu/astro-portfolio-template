@@ -4,7 +4,7 @@ import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 import { SITE_URL } from "./src/data/config";
 
-// import netlify from "@astrojs/netlify/functions";
+import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,6 +17,6 @@ export default defineConfig({
       wrap: false
     }
   },
-  // output: "server",
-  // adapter: netlify()
+  output: "server",
+  adapter: netlify()
 });

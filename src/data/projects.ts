@@ -7,22 +7,19 @@ export type Project = {
 
 const projects: Project[] = [
   {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
-    link: "https://github.com/MaeWolff/dictionary-app",
-    isComingSoon: true,
+    title: "React - Whack a mole",
+    techs: ["ReactJS", "CSS", "HTML"],
+    link: "https://quirky-albattani-bc7423.netlify.app/",
   },
   {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
-    isComingSoon: true,
+    title: "React - Pacman",
+    techs: ["ReactJS", "CSS", "HTML"],
+    link: "https://unruffled-galileo-2cdbae.netlify.app/",
   },
   {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
+    title: "React - Memory match",
+    techs: ["ReactJS", "CSS", "HTML"],
+    link: "https://jovial-albattani-55082a.netlify.app/",
   },
 ];
 
